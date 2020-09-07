@@ -1,0 +1,23 @@
+Clientes:
+LOAD * Inline [
+ClienteID, NombreEmpresa, Cuidad
+1,Tech A, Barcelona
+2,Bio A, Madrid
+3,Comida A, Sevilla
+];
+
+Proveedores:
+Noconcatenate LOAD * Inline [
+ProveedorID,NombreEmpresa, Cuidad
+1,Tech B, Barcelona
+2,Bio B, Madrid
+3,Comida B, Sevilla
+];
+
+Pedidos:
+LOAD * Inline [
+PedidoID, Articulo, ProveedorID, ClienteID
+1,Articulo 1, 1, 1
+2,Articulo 2, 2, 2
+3,Articulo 3, 3, 2
+];
