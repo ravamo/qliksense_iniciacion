@@ -7,16 +7,19 @@ Recursos para el curso de QlikSense, dentro de las carpetas de cada app vamos a 
 
 ## Mi primera App 
 En esta primera App vamos a realizar una app muy sencilla mediante los menus y las guias automaticas que nos da QlikSense. Y veremos la interfaz que nos propociona el cloud.
+
 ![Mi primera App](https://github.com/ravamo/qliksense_iniciacion/blob/master/PrimeraApp/App_1.png?raw=true)
 
 
 ## Mi segunda App 
 En esta segunda App tendremos componentes mas complejos como mapas , asi como personalizar la app con colores , etc..
+
 ![Mi segunda App](https://github.com/ravamo/qliksense_iniciacion/blob/master/SegundaApp/App_2.png?raw=true)
 
 
 ## Mi tercera App 
 En la tercera App vamos a ver algunos graficos interesantes y como personalizar.
+
 ![Mi tercera App Hoja 1](https://github.com/ravamo/qliksense_iniciacion/blob/master/TerceraApp/App_3_Hoja_1.png?raw=true)
 ![Mi tercera App Hoja 2](https://github.com/ravamo/qliksense_iniciacion/blob/master/TerceraApp/App_3_Hoja_2.png?raw=true)
 
