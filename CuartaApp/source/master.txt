@@ -22,7 +22,7 @@ AutoGenerate 1 While $(varMinDate) + IterNo() -1 <= $(varMaxDate);
       
 MasterCalendar:  
 Load  
-  TempDate AS OrderDate,  
+  TempDate AS FechaPedido,  
   week(TempDate) As Week,  
   Year(TempDate) As Year,  
   Month(TempDate) As Month,  
@@ -32,4 +32,4 @@ Load
   WeekDay(TempDate) as WeekDay  
 Resident TempCalendar  
 Order By TempDate ASC;  
-Drop Table TempCalendar;  
+Drop Table TempCalendar;
