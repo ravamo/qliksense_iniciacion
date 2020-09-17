@@ -31,4 +31,5 @@ Modelado avanzado 54. Referencia Circular, NoConcatenate, Qualify y Unqualify
 
 ## Ejemplos
 Ejemlo de comtenedor, calculo de columnas (tabla simple o pivot table), Base para el setAnalysis y Operaciones de conjunto, ademas de la manera de programar una carga. 
+
 ![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/QlikSenseScheduler.gif?raw=true)
