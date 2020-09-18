@@ -35,11 +35,11 @@ Ejemlo de comtenedor, calculo de columnas (tabla simple o pivot table), Base par
 ![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/QlikSenseScheduler.gif?raw=true)
 
 ### Video de como generar un TOP10 o similar en QlikSense
-![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/Top10.webm?raw=true)
+![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/Top10.gif?raw=true)
 
 ## Video de como sacar el Id de una cantidad Maxima usando aggr function (Gracias a Carmelo Santana)
 
-![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/getEmpleadoIdForMax.webm?raw=true)
+![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/getEmpleadoIdForMax.gif?raw=true)
 
 ```
 =Max(if(Aggr(sum(Cantidad),EmpleadoId) >= max(total aggr(sum(Cantidad),EmpleadoId)), EmpleadoId, 0))
