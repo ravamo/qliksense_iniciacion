@@ -33,3 +33,15 @@ Modelado avanzado 54. Referencia Circular, NoConcatenate, Qualify y Unqualify
 Ejemlo de comtenedor, calculo de columnas (tabla simple o pivot table), Base para el setAnalysis y Operaciones de conjunto, ademas de la manera de programar una carga. 
 
 ![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/QlikSenseScheduler.gif?raw=true)
+
+### Video de como generar un TOP10 o similar en QlikSense
+![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/Top10.webm?raw=true)
+
+## Video de como sacar el Id de una cantidad Maxima usando aggr function (Gracias a Carmelo Santana)
+
+![Ejemplos](https://github.com/ravamo/qliksense_iniciacion/blob/master/Ejemplos/getEmpleadoIdForMax.webm?raw=true)
+
+```
+=Max(if(Aggr(sum(Cantidad),EmpleadoId) >= max(total aggr(sum(Cantidad),EmpleadoId)), EmpleadoId, 0))
+
+```
