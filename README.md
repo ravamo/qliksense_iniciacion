@@ -27,7 +27,10 @@ En la tercera App vamos a ver algunos graficos interesantes y como personalizar.
 En este app vamos a realizar Optimizaciòn de modelo y Set Analysis, Identificadores de Conjunto,Operaciones de Conjunto y  la función Aggr.
 
 ## Mi quinta App 
-Modelado avanzado 54. Referencia Circular, NoConcatenate, Qualify y Unqualify
+Modelado avanzado :
+* Referencia Circular
+* NoConcatenate
+* 3Qualify y Unqualify
 
 ## Ejemplos
 Ejemlo de comtenedor, calculo de columnas (tabla simple o pivot table), Base para el setAnalysis y Operaciones de conjunto, ademas de la manera de programar una carga. 
@@ -45,3 +48,12 @@ Ejemlo de comtenedor, calculo de columnas (tabla simple o pivot table), Base par
 =Max(if(Aggr(sum(Cantidad),EmpleadoId) >= max(total aggr(sum(Cantidad),EmpleadoId)), EmpleadoId, 0))
 
 ```
+
+### Demos
+Aqui os pongo un link a los cuadros de mando mas complejos que nos brinda [Qlik](http://demo.qlik.com/) , todas las hojas se pueden duplicar y editar , para el resto de acciones o efectos tienes que programar en js y css 
+
+### Seguridad 
+Os adjunto unos videos donde se explica muy muy bien todo lo relacionado con la seguridad.
+[![Video Seguridad I](http://i3.ytimg.com/vi/vkCh_t1nd40/maxresdefault.jpg)](https://www.youtube.com/watch?v=vkCh_t1nd40&ab)
+[![Video Seguridad II](http://i3.ytimg.com/vi/_GYC2l8e0FE/maxresdefault.jpg)](https://www.youtube.com/watch?v=_GYC2l8e0FE&t)
+
