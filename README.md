@@ -49,6 +49,26 @@ Ejemlo de comtenedor, calculo de columnas (tabla simple o pivot table), Base par
 
 ```
 
+### Set configuration
+```
+SET ThousandSep='.';
+SET DecimalSep=',';
+SET MoneyThousandSep='.';
+SET MoneyDecimalSep=',';
+SET MoneyFormat='#.##0,00 €;-#.##0,00 €';
+SET TimeFormat='h:mm:ss';
+SET DateFormat='D/M/YYYY';
+SET TimestampFormat='D/M/YYYY h:mm:ss[.fff]';
+SET FirstWeekDay=0;
+SET BrokenWeeks=0;
+SET ReferenceDay=4;
+SET FirstMonthOfYear=1;
+SET CollationLocale='es-ES';
+SET MonthNames='ene.;feb.;mar.;abr.;may.;jun.;jul.;ago.;sept.;oct.;nov.;dic.';
+SET LongMonthNames='enero;febrero;marzo;abril;mayo;junio;julio;agosto;septiembre;octubre;noviembre;diciembre';
+
+```
+
 ### Demos
 Aqui os pongo un link a los cuadros de mando mas complejos que nos brinda [Qlik](http://demo.qlik.com/) , todas las hojas se pueden duplicar y editar , para el resto de acciones o efectos tienes que programar en js y css 
 
